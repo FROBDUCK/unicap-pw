@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Consulta de CNPJ</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="bg-gray-100 flex items-center justify-center min-h-screen">
+    <div class="bg-white p-6 rounded-lg shadow-lg w-full max-w-md">
+        <h1 class="text-2xl font-bold mb-4">Consulta de CNPJ</h1>
+        <input type="text" id="cnpjInput" class="border p-2 w-full mb-4" placeholder="Digite o CNPJ">
+        <button onclick="consultCNPJ()" class="bg-blue-500 text-white p-2 rounded w-full">Consultar</button>
+        <div id="cnpjResult" class="mt-4"></div>
+    </div>
+    <script src="../src/scripts.js" defer></script>
+</body>
+</html>
